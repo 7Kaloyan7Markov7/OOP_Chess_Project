@@ -1,9 +1,0 @@
-﻿  Bishop_implementation.cpp
-  Knight_implementation.cpp
-  Parser_implementation.cpp
-  Pawn_implementation.cpp
-  Queen_implementation.cpp
-  Rook_implementation.cpp
-  Source.cpp
-  Generating Code...
-  Chess.vcxproj -> C:\Users\Admin\source\repos\Chess\x64\Debug\Chess.exe
