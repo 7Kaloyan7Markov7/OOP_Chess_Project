@@ -1,0 +1,8 @@
+﻿  Drawer_implementation.cpp
+  Source.cpp
+C:\Users\Admin\source\repos\Chess\Chess_declaration.h(3,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+  Chess_implementation.cpp
+C:\Users\Admin\source\repos\Chess\Chess_declaration.h(3,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+  Generating Code...
+  LINK : C:\Users\Admin\source\repos\Chess\x64\Debug\Chess.exe not found or not built by the last incremental link; performing full link
+  Chess.vcxproj -> C:\Users\Admin\source\repos\Chess\x64\Debug\Chess.exe
