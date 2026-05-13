@@ -84,14 +84,3 @@ Chess/
 └── Chess.sln / Chess.vcxproj   # Visual Studio solution
 ```
 
-## Possible Improvements
-
-- Save/load games to file (scaffolding already exists in `Board`)
-- Move history & PGN export
-- AI opponent (minimax + alpha-beta)
-- Cross-platform renderer (ncurses / SDL)
-- Unit tests
-
-## License
-
-Add your preferred license here (e.g. MIT).
