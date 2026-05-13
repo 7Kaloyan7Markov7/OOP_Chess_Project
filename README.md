@@ -11,7 +11,7 @@ A console-based chess game written in C++ for Windows. Full standard chess rules
 <p align="center">
   <img src="pics/chess_screenshot1.png" width="45%"/>
   &nbsp;&nbsp;
-  <img src="pics/screenshots/checkmate.png" alt="Checkmate detected — Black is checkmated" width="45%"/>
+  <img src="pics/checkmate.png" alt="Checkmate detected — Black is checkmated" width="45%"/>
 </p>
 
 ## Features
