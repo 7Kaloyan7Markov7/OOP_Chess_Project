@@ -6,6 +6,14 @@ A console-based chess game written in C++ for Windows. Full standard chess rules
 ![Platform](https://img.shields.io/badge/platform-Windows-lightgrey)
 ![IDE](https://img.shields.io/badge/IDE-Visual%20Studio%202022-purple)
 
+## Screenshots
+
+<p align="center">
+  <img src="screenshots/gameplay.png" alt="Gameplay — White has opened with 1.d4, Black to move" width="45%"/>
+  &nbsp;&nbsp;
+  <img src="screenshots/checkmate.png" alt="Checkmate detected — Black is checkmated" width="45%"/>
+</p>
+
 ## Features
 
 - Two-player game on the same machine
@@ -29,12 +37,12 @@ The project follows an object-oriented design with clear separation of concerns:
 | Component       | Responsibility                                              |
 |-----------------|-------------------------------------------------------------|
 | `Chess`         | Singleton entry point — runs the main game loop             |
-| `Board`         | 8×8 grid of `Figure*`, handles moves, castling, en passant, promotion |
+| `Board`         | 8×8 grid of `Piece*`, handles moves, castling, en passant, promotion |
 | `EventHandler`  | Input validation, turn management, check/checkmate/stalemate detection |
 | `Drawer`        | Renders the board to the console with colors                |
 | `Player`        | Stores player color, piece count, reads input               |
 | `Parser`        | Converts between algebraic notation (`e4`) and array indices |
-| `Figure` (abstract) | Base class for all pieces; subclasses generate their legal moves |
+| `Piece` (abstract) | Base class for all pieces; subclasses generate their legal moves |
 | `Pawn`, `Rook`, `Knight`, `Bishop`, `Queen`, `King` | Piece-specific move generation |
 | `String`        | Custom string class (no `std::string`)                      |
 | `MyVector<T>`   | Custom dynamic array template (no `std::vector`)            |
@@ -76,11 +84,10 @@ Chess/
 ├── Drawer_*.{h,cpp}            # Console rendering
 ├── Player_*.{h,cpp}            # Player input & state
 ├── Parser_*.{h,cpp}            # Notation <-> index conversion
-├── Figure_*.{h,cpp}            # Abstract base piece
+├── Piece_*.{h,cpp}             # Abstract base piece
 ├── Pawn / Rook / Knight / Bishop / Queen / King_*.{h,cpp}
 ├── String_*.{h,cpp}            # Custom string
 ├── Vector.h                    # Custom dynamic array template
-├── Constnats_and_Enums.h       # Shared constants & enums
+├── Constants_and_Enums.h       # Shared constants & enums
 └── Chess.sln / Chess.vcxproj   # Visual Studio solution
 ```
-
