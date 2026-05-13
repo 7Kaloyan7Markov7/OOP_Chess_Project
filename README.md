@@ -9,9 +9,9 @@ A console-based chess game written in C++ for Windows. Full standard chess rules
 ## Screenshots
 
 <p align="center">
-  <img src="screenshots/gameplay.png" alt="Gameplay — White has opened with 1.d4, Black to move" width="45%"/>
+  <img src="pics/chess_screenshot1.png" width="45%"/>
   &nbsp;&nbsp;
-  <img src="screenshots/checkmate.png" alt="Checkmate detected — Black is checkmated" width="45%"/>
+  <img src="pics/screenshots/checkmate.png" alt="Checkmate detected — Black is checkmated" width="45%"/>
 </p>
 
 ## Features
